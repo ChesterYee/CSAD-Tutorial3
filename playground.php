@@ -31,9 +31,12 @@ echo $x;
 
 echo "<br>";
 
+
+ // Global variables
 $a = 100;
 $b = 150;
 function myTest() {
+    // Use global keyword to access global variables
     global $a, $b;
     $a = $a + $b;
 }
